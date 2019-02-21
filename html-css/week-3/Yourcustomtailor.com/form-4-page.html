@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>yourcustomtailor - Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/form-4page.css" />
+  </head>
+  <body>
+      <section class="section">
+          <div class="left">
+        <img src="./images/logo.png" alt="logo-img" id="iogo-img"/>
+    </div>
+      <div id="nav-bar">
+        <nav>
+          <a href="./form.html">First-page</a>
+          <a href="./form-2-page.html">Second-page</a>
+          <a href="./form-3-page.html">Third-page</a>
+          <a href="./form-4-page.html">Forth-page</a>
+      </nav>
+          </div>  
+          </section>
+          <header class="page__header">
+        </div>
+    </header>
+    <!-- ***END page__header*** -->
+<div id="main-box">
+    <main class="page__main">
+      <form action="/signup" method="GET" class="signup__form">
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <h2>Step 4/4- tell us who you are?</h2><br>
+        
+          <h3>Progress</h3>
+          <div class="w3-panel w3-note"> 
+        <div id="Progress-box"></div>
+        <p>Please fill in yur payment data</p><br>
+          </div>
+         
+          <div class="first-class">
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="Enter your name">
+          </div>    
+          
+          <div class="first-class">
+                  <span class="form-country">Card type</span>
+                  <label for="country" class="form-country-label">
+                    <select
+                      name="country"
+                      id="country"
+                      class="form-country-select"
+                      required
+                    >
+                    <option value="AF">Debit card</option>
+                    <option value="AX">Visa card</option>
+                    <option value="AL">Master card</option>
+                    <option value="DZ">Danskort</option>
+                    <option value="AS">Visa Debit</option>
+                    </select>
+                  </label>
+          </div>
+                  <!-- END Card-type -->
+            
+          <div class="first-class">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="cname">First name</label>
+              <input type="text" id="cname" name="cardname" placeholder="Enter your name">
+          </div>
+              
+          <div class="first-class">
+            <label for="expmonth">Expiry Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">                
+           
+              <label for="expyear">Expiry Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+
+          <div class="first-class">
+              <label for="cvv">CCV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="352">
+            </div>
+
+           
+        <div><a class="w3-right w3-btn" href="./form-5-page copy.html">Next step</a></div>
+      </div>
+        <!--END-next-bottum-->
+    
+    </main>
+    <!-- ***END page__main*** -->
+  </body>
+</html>
