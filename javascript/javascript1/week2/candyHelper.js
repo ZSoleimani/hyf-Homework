@@ -4,16 +4,16 @@ function addCandy(candyType, weight){
     let thePrice = undefined
     if (candyType === 'Sweet'){
         thePrice = 0.5 * weight
-    }
+         }
     else if (candyType ==='Chocolate'){
         thePrice = 0.7 * weight
-    } 
+         } 
     else if (candyType === 'Toffee'){
         thePrice = 1.1 * weight
-    }
+         }
     else if (candyType === 'Chewing-gum'){
         thePrice = 0.03 * weight
-    } 
+         } 
     return boughtCandyPrices.push(thePrice)
 }
   //first function ended 
